@@ -3,7 +3,7 @@ var pokeball = document.getElementById('pokeball');
 var heading = document.getElementById('heading');
 var i = 0;
 
-smaller() {
+function smaller() {
 	pokeball.style.width *= .9;
 	pokeball.style.height *= .9;
 }
