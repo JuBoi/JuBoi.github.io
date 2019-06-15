@@ -4,8 +4,8 @@ var heading = document.getElementById('heading');
 var i = 0;
 
 function smaller() {
-	pokeball.style.width *= .9;
-	pokeball.style.height *= .9;
+	pokeball.style.width -= 20;
+	pokeball.style.height -= 20;
 }
 
 pokeball.onclick = function() {
