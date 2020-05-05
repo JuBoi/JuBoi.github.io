@@ -19,10 +19,10 @@ pokeball.onclick = function() {
 		pokeball.style.height = String(size) + "px";
 	}
 	if(i > 9) {
-		pokeball.src = "images/halle.jpg"
+		pokeball.src = "images/peterpose.jpg"
 		pokeball.style.width = "400px";
-		pokeball.style.height = "400px";
-		heading.innerHTML = "the best player"
+		pokeball.style.height = "800px";
+		heading.innerHTML = "THE Peter Pose"
 	}
 	i++;
 }
